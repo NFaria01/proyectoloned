@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tablaTalles {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(255, 255, 255);
+    background-image: url(../imagenesyvideos/13251.jpg);
+}
+  
+thead th:nth-child(1) {
+    width: 30%;
+}
+  
+thead th:nth-child(2) {
+    width: 20%;
+}
+  
+thead th:nth-child(3) {
+    width: 15%;
+}
+  
+thead th:nth-child(4) {
+    width: 35%;
+}
+  
+th, td {
+    padding: 20px;
+}
+
+
+.bajarBoton2{
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    width: 300;
+    position: absolute;
+    right: 44%;
+}

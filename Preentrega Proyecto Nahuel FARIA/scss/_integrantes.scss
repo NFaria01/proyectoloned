@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cuerpoIntegrantes .regresaInicio{
+    padding: 10px;
+    margin: 20px;
+    background-color: #79B4B7;
+    border-radius: 10px;
+}
+
+
+.contenedorGrid{
+    display: grid;
+	min-height: 100vh;
+	grid-template-areas:
+	"headerSitio headerSitio headerSitio"
+	"integrantesSitio integrantesSitio integrantesSitio"
+	"equiposSitio equiposSitio equiposSitio"
+	"fundadoresSitio fundadoresSitio fundadoresSitio"
+	"footerSitio footerSitio footerSitio";
+	grid-template-columns: 4fr 4fr 4fr ;
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 10px;
+	grid-row-gap: 20px;
+	justify-items: stretch;
+	padding: 10px;
+	margin: 10px;
+}
+
+.headerSitio{
+    grid-area: headerSitio;
+    background-color: #79B4B7;
+	justify-self: stretch;
+	border-radius: 10px;
+}
+
+.integrantesSitio{
+    grid-area: integrantesSitio;
+	background-color: #FEFBF3;
+	border-radius: 10px;
+}
+
+
+.equiposSitio{
+    grid-area: equiposSitio;
+	background-color: #F8F0DF;
+	justify-self: stretch;
+	border-radius: 10px;
+}
+
+
+.fundadoresSitio{
+    grid-area: fundadoresSitio;
+	background-color: lightpink;
+	border-radius: 10px;
+}
+
+
+.footerSitio{
+    grid-area: footerSitio;
+	background-color: #9D9D9D;
+	justify-self: stretch;
+	border-radius: 10px;
+}
+
+@media all and (min-width: 480px){
+	#contenedor{
+		grid-template-areas:
+		"headerSitio headerSitio headerSitio"
+		"integrantesSitio equiposSitio equiposSitio "
+		"integrantesSitio fundadoresSitio fundadoresSitio"
+		"footerSitio footerSitio footerSitio";
+		grid-template-rows: repeat(5, 1fr);
+
+}
+}
+	#header{
+		background-color: #000;
+		color: #fff;
+		justify-self: stretch;
+	}
+	#footer{
+		background-color: #000;
+		color: greenyellow;
+		justify-self: stretch;
+}
+
+
+@media all and (min-width: 768px){
+	#contenedor{
+		grid-template-areas:
+		"headerSitio headerSitio headerSitio"
+		"integrantesSitio equiposSitio equiposSitio "
+		"integrantesSitio fundadoresSitio fundadoresSitio"
+		"footerSitio footerSitio footerSitio";
+		grid-template-rows: repeat(4, 1fr);
+
+}
+	#header{
+		background-color: #000;
+		color: #fff;
+		justify-self: stretch;
+	}
+	#footer{
+		background-color: #000;
+		color: greenyellow;
+		justify-self: stretch;
+}
+}
+
+
+
+@media all and (min-width: 1024px){
+	#contenedor{
+		grid-template-areas:
+		"headerSitio headerSitio headerSitio"
+		"integrantesSitio equiposSitio equiposSitio "
+		"integrantesSitio fundadoresSitio fundadoresSitio"
+		"footerSitio footerSitio footerSitio";
+		grid-template-rows: repeat(3, 1fr);
+
+}
+	#header{
+		background-color: #000;
+		color: #fff;
+		justify-self: stretch;
+	}
+	#footer{
+		background-color: #000;
+		color: greenyellow;
+		justify-self: stretch;
+}
+}

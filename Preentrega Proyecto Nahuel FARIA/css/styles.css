@@ -1,0 +1,522 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.cuerpoContacto {
+  height: 100%;
+  height: 100%;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-image: url(../imagenesyvideos/whisperism.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+.cuerpoContacto .divDeIframe {
+  border-radius: 200px;
+}
+
+.cuerpoContacto .iframeEn {
+  border-radius: 200px;
+}
+
+.cuerpoContacto .formularioAct {
+  color: black;
+  background-color: white;
+  background-image: url(../imagenesyvideos/13251.jpg);
+  border-radius: 100px;
+  border: 1px solid black;
+  opacity: 100%;
+}
+
+.cuerpoContacto .formularioAct input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+div img {
+  border-radius: 100px;
+}
+
+.contactoImp {
+  background-color: #f5e4e4;
+  border-radius: 100px;
+  color: #050505;
+}
+
+.ubicacionFisica {
+  background-color: #f5e4e4;
+  color: #050505;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 100px;
+}
+
+.bajarBoton2 {
+  margin: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #050505;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #f5e4e4;
+  display: block;
+  border-radius: 100px;
+}
+
+.bajarBoton2:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.btn-whatsapp {
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  right: 50px;
+  bottom: 50px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tablaTalles {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid white;
+  background-image: url(../imagenesyvideos/13251.jpg);
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+.bajarBoton2 {
+  padding: 20px;
+  margin: 20px;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  background-color: black;
+  width: 300;
+  position: absolute;
+  right: 44%;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bodyImportante {
+  background-image: url("../imagenesyvideos/1366_2001.jpg");
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.bodyImportante .divComprar .productosTienda {
+  padding: 14px;
+  margin: 14px;
+  color: black;
+  font-size: 25px;
+}
+
+.divFormulario .formularioImportante .labelImportante {
+  color: black;
+  font-size: 20px;
+}
+
+.divComprar .productosDisponibles li {
+  color: white;
+  font-size: 20px;
+  list-style: none;
+}
+
+.labelCondiciones {
+  color: black;
+  font-size: 20px;
+}
+
+.productosTienda {
+  font-size: 25px;
+  word-spacing: 2px;
+  text-transform: uppercase;
+  background: none;
+}
+
+.productosDisponibles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  margin-top: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  padding: 50px;
+  background-color: #000000;
+  border-radius: 100px;
+}
+
+.bajarBoton {
+  padding: 20px;
+  margin: 20px;
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+  border-radius: 100px;
+  width: 300px;
+  position: absolute;
+  right: 37.8%;
+}
+
+.envioClase {
+  color: black;
+  font-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cuerpoIntegrantes .regresaInicio {
+  padding: 10px;
+  margin: 20px;
+  background-color: #79B4B7;
+  border-radius: 10px;
+}
+
+.contenedorGrid {
+  display: -ms-grid;
+  display: grid;
+  min-height: 100vh;
+      grid-template-areas: "headerSitio headerSitio headerSitio"
+ "integrantesSitio integrantesSitio integrantesSitio"
+ "equiposSitio equiposSitio equiposSitio"
+ "fundadoresSitio fundadoresSitio fundadoresSitio"
+ "footerSitio footerSitio footerSitio";
+  -ms-grid-columns: 4fr 4fr 4fr;
+      grid-template-columns: 4fr 4fr 4fr;
+  -ms-grid-rows: (1fr);
+      grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  padding: 10px;
+  margin: 10px;
+}
+
+.headerSitio {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: headerSitio;
+  background-color: #79B4B7;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+  border-radius: 10px;
+}
+
+.integrantesSitio {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: integrantesSitio;
+  background-color: #FEFBF3;
+  border-radius: 10px;
+}
+
+.equiposSitio {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: equiposSitio;
+  background-color: #F8F0DF;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+  border-radius: 10px;
+}
+
+.fundadoresSitio {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: fundadoresSitio;
+  background-color: lightpink;
+  border-radius: 10px;
+}
+
+.footerSitio {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footerSitio;
+  background-color: #9D9D9D;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+  border-radius: 10px;
+}
+
+@media all and (min-width: 480px) {
+  #contenedor {
+        grid-template-areas: "headerSitio headerSitio headerSitio"
+ "integrantesSitio equiposSitio equiposSitio "
+ "integrantesSitio fundadoresSitio fundadoresSitio"
+ "footerSitio footerSitio footerSitio";
+    -ms-grid-rows: (1fr);
+        grid-template-rows: repeat(5, 1fr);
+  }
+}
+
+#header {
+  background-color: #000;
+  color: #fff;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+}
+
+#footer {
+  background-color: #000;
+  color: greenyellow;
+  -ms-grid-column-align: stretch;
+      justify-self: stretch;
+}
+
+@media all and (min-width: 768px) {
+  #contenedor {
+        grid-template-areas: "headerSitio headerSitio headerSitio"
+ "integrantesSitio equiposSitio equiposSitio "
+ "integrantesSitio fundadoresSitio fundadoresSitio"
+ "footerSitio footerSitio footerSitio";
+    -ms-grid-rows: (1fr);
+        grid-template-rows: repeat(4, 1fr);
+  }
+  #header {
+    background-color: #000;
+    color: #fff;
+    -ms-grid-column-align: stretch;
+        justify-self: stretch;
+  }
+  #footer {
+    background-color: #000;
+    color: greenyellow;
+    -ms-grid-column-align: stretch;
+        justify-self: stretch;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  #contenedor {
+        grid-template-areas: "headerSitio headerSitio headerSitio"
+ "integrantesSitio equiposSitio equiposSitio "
+ "integrantesSitio fundadoresSitio fundadoresSitio"
+ "footerSitio footerSitio footerSitio";
+    -ms-grid-rows: (1fr);
+        grid-template-rows: repeat(3, 1fr);
+  }
+  #header {
+    background-color: #000;
+    color: #fff;
+    -ms-grid-column-align: stretch;
+        justify-self: stretch;
+  }
+  #footer {
+    background-color: #000;
+    color: greenyellow;
+    -ms-grid-column-align: stretch;
+        justify-self: stretch;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 500px;
+  background-color: #F8F0DF;
+  background-image: url(../imagenesyvideos/ropa-fondo-2.jpg);
+  overflow-x: hidden;
+}
+
+.headerImportante {
+  background: url("http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg");
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+  background-image: url(../imagenesyvideos/1366_2001.jpg);
+}
+
+.headerImportante .overlay {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  color: black;
+  text-shadow: 1px 1px 1px #050505;
+  background-image: linear-gradient(135deg, #00000069 10%, #0000006b 100%);
+}
+
+.bienvenidaLo {
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 80px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.tituloPrincipal {
+  color: #e4e4e4;
+  text-align: center;
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-weight: 450;
+  text-transform: uppercase;
+}
+
+.tituloPrincipal .centrado {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.tituloPrincipal .borderRedondo {
+  border-radius: 100%;
+}
+
+.tituloPrincipal .imagenDeBuzo {
+  border-radius: 100%;
+}
+
+.menuPrincipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 200px;
+  min-height: 25vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #9D9D9D;
+  margin: 40px;
+  padding: 1em;
+  list-style: circle;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: 'Kaisei HarunoUmi', serif;
+  list-style-position: inside;
+  border-radius: 100px;
+}
+
+ul li:hover {
+  background-color: #030303;
+  padding: 5px;
+  border-radius: 100px;
+}
+
+.puroTexto {
+  font-family: 'Kaisei HarunoUmi', serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+
+.footerDePagina {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 1em;
+  margin: 40px;
+  font-size: 25px;
+  background-color: #9D9D9D;
+  text-align: center;
+  border-radius: 100px;
+  height: 250px;
+}
+
+.centrado {
+  text-align: center;
+  border-radius: 100px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div a {
+  font-size: 25px;
+  -webkit-text-decoration-color: #5b6679;
+          text-decoration-color: #5b6679;
+  padding: 1em;
+  margin: 40px;
+  background-color: #9D9D9D;
+  border-radius: 100px;
+}
+
+.borderRedondo {
+  border-radius: 100%;
+}
+
+.imagenDeBuzo {
+  border-radius: 100%;
+  width: 300px;
+}
+
+div p {
+  color: #130707;
+  padding: 20px;
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=styles.css.map */

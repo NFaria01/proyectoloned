@@ -1,0 +1,141 @@
+@import "variables";
+@import "contacto";
+@import "talles";
+@import "comprar";
+@import "integrantes";
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    height: 500px;
+    background-color: #F8F0DF;
+	background-image: url(../imagenesyvideos/ropa-fondo-2.jpg);
+	overflow-x: hidden;
+}
+
+
+.headerImportante{
+    background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+	text-align: center;
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+	background-image: url(../imagenesyvideos/1366_2001.jpg);
+    .overlay {
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+        color: rgb(0, 0, 0);
+	    text-shadow: 1px 1px 1px rgb(5, 5, 5);
+    background-image: linear-gradient( 135deg, #00000069 10%, #0000006b 100%);
+    }
+}
+
+.bienvenidaLo{
+    font-family: 'Kaisei HarunoUmi', serif;
+	font-size: 80px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.tituloPrincipal{
+    color: rgb(228, 228, 228);
+    text-align: center;
+	font-family: 'Kaisei HarunoUmi', serif;
+	font-weight: 450;
+	text-transform: uppercase;
+    .centrado{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+        .borderRedondo{
+            border-radius: 100%;
+    }
+            .imagenDeBuzo{
+                border-radius: 100%;
+    }
+}
+
+.menuPrincipal {
+    display: flex;
+	height: 200px;
+	min-height: 25vh;
+	flex-direction: column;
+	background-color: #9D9D9D;
+	margin: 40px;
+	padding: 1em;
+	list-style: circle;
+	text-align: center;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-family: 'Kaisei HarunoUmi', serif;
+	list-style-position: inside;
+	border-radius: 100px;
+}
+
+ul li:hover{
+    background-color: rgb(3, 3, 3);
+	padding: 5px;
+	border-radius: 100px;
+}
+
+.puroTexto{
+	font-family: 'Kaisei HarunoUmi', serif;
+	display: flex;
+	margin: 20px;
+	padding: 20px;
+}
+
+
+.footerDePagina{
+    flex:1;
+	padding: 1em;
+	margin: 40px;
+	font-size: 25px;
+	background-color: #9D9D9D;
+	text-align: center;
+	border-radius: 100px;
+	height: 250px;
+}
+
+
+.centrado{
+    text-align: center;
+    border-radius: 100px;
+    justify-content: space-around;
+    display: flex;
+}
+
+div a {
+	font-size: 25px;
+	text-decoration-color: rgb(91, 102, 121);
+	padding: 1em;
+	margin: 40px;
+	background-color: #9D9D9D;
+	border-radius: 100px;
+}
+
+.borderRedondo{
+	border-radius: 100%;
+}
+
+.imagenDeBuzo{
+	border-radius: 100%;
+    width: 300px;
+}
+
+div p {
+    color: rgb(19, 7, 7);
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+

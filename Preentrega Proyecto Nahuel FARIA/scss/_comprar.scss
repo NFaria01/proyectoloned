@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bodyImportante{
+    background-image: url("../imagenesyvideos/1366_2001.jpg");
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+    .divComprar .productosTienda{
+        padding: 14px;
+        margin: 14px;
+        color: rgb(0, 0, 0);
+	    font-size: 25px;
+    }
+}
+
+.divFormulario .formularioImportante .labelImportante{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.divComprar .productosDisponibles li {
+    color: rgb(255, 255, 255);
+	font-size: 20px;
+	list-style: none; 
+}
+
+.labelCondiciones{
+    color: rgb(0, 0, 0);
+	font-size: 20px;
+}
+
+
+.productosTienda{
+    font-size: 25px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    background: none;
+}
+
+
+.productosDisponibles{
+    display: flex;
+    height: 100px;
+    margin-top: 10px;
+    flex-direction: column-reverse;
+    padding: 50px;
+    background-color: $background;
+    border-radius: 100px;
+}
+
+
+.bajarBoton{
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    background-color: $background;
+    border-radius: 100px;
+    width: 300px;
+    position: absolute;
+    right: 37.8%;
+}
+
+.envioClase{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+

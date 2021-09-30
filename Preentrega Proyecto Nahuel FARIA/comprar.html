@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title class="titulo">Compras</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="bodyImportante">
+	<div class="divComprar">
+		<p class="productosTienda">
+			<b>Productos disponibles en la tienda</b>	
+		</p>
+		<ul class="productosDisponibles">
+			<li>Hoodies</li>
+			<li>Pantalones largos</li>
+			<li>Shorts</li>
+			<li>Buzos sin capucha</li>
+			<li>Remeras</li>
+		</ul>
+	</div>
+	<div class="divFormulario">
+		<p class="productosTienda"><b>Formulario de compras:</b></p>
+		<form class="formularioImportante" method="POST" action="">
+			<label class="labelImportante" for="nombre">Tamaño de Hoodie</label>
+			<select name="pais">
+				<option value="0" selected disabled>Selecciona un talle</option>
+				<option value="M">Talle M</option>
+				<option value="S">Talle S</option>
+				<option value="L">Talle L</option>
+				<option value="XL">Talle XL</option>
+			</select>
+		</form>
+	</div>
+		<div>
+			<label class="envioClase" for="nombre">Envio</label>
+				<select name="">
+				<option value="1" selected disabled>Seleccione una forma de envio</option>
+				<option value="Sucursal">Retiro en sucursal</option>
+				<option value="Correo">Envio por Correo</option>
+				<option value="Domicilio">Envio a domicilio</option> 
+			</select>
+				<label class="labelCondiciones">Acepta las condiciones</label>
+					<label for="opcion_1">SI</label>
+					<input type="radio" name="opciones" value="1" id="opcion_1">
+					<label for="opcion_2">NO</label>
+					<input type="radio" name="opciones" value="2" id="opcion_2">
+
+			<input type="submit" value="ENVIAR">
+		</div>
+
+
+	<a class="bajarBoton" href="index.html">Regresar a Inicio</a>					
+</body>
+</html>
